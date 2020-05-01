@@ -1,0 +1,31 @@
+{
+  "name": "jp-react-library-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "jonatas pinto",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "styled-components": "^5.1.0",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-styled-components": "^1.10.7",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "polished": "^3.5.2",
+    "prop-types": "^15.7.2",
+    "styled-components": "^5.1.0"
+  }
+}
