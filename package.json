@@ -4,7 +4,9 @@
   "description": "",
   "main": "./build/index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "author": "jonatas pinto",
   "license": "ISC",
@@ -17,6 +19,10 @@
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
     "@babel/preset-react": "^7.9.4",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react": "^5.3.18",
     "babel-loader": "^8.1.0",
     "babel-plugin-styled-components": "^1.10.7",
     "style-loader": "^1.2.1",
