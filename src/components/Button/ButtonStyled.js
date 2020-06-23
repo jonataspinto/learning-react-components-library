@@ -5,7 +5,7 @@ export const Button = styled.button`
   display: flex;
   align-items: center;
   padding: 8px;
-  font-size: 16px;
+  font-size: 15px;
   background-color: black;
   border-radius: 10px;
   &:hover {
